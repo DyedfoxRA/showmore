@@ -1,7 +1,8 @@
 [versions]
-agp = "8.3.0"
+agp = "8.3.1"
 annotationVersion = "1.7.1"
-kotlin = "1.9.0"
+coilCompose = "2.4.0"
+kotlin = "1.9.22"
 coreKtx = "1.12.0"
 junit = "4.13.2"
 junitVersion = "1.1.5"
@@ -15,12 +16,16 @@ appcompat = "1.6.1"
 material = "1.11.0"
 okhttp = "4.12.0"
 retrofit = "2.9.0"
-koin-bom = "3.5.3"
+koin-bom = "3.6.0-wasm-alpha2"
 retrofit2KotlinxSerializationConverter = "1.0.0"
+foundationAndroid = "1.6.3"
+material3Android = "1.2.1"
+navigationCompose = "2.7.7"
 
 [libraries]
 androidx-annotation = { module = "androidx.annotation:annotation", version.ref = "annotationVersion" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -47,6 +52,9 @@ retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit
 koin-bom = { module = "io.insert-koin:koin-bom", version.ref = "koin-bom" }
 koin-core = { module = "io.insert-koin:koin-core" }
 retrofit2-kotlinx-serialization-converter = { module = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter", version.ref = "retrofit2KotlinxSerializationConverter" }
+androidx-foundation-android = { group = "androidx.compose.foundation", name = "foundation-android", version.ref = "foundationAndroid" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3Android" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
 
 
 
