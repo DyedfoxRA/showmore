@@ -52,6 +52,7 @@ dependencies {
     implementation(libs.coil.compose)
 
     implementation(project(":network"))
+    implementation(project(":core"))
 
     implementation(platform(libs.koin.bom))
     implementation(libs.koin.androidx.compose)

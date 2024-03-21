@@ -1,12 +1,14 @@
 package com.venture.store_products.domain
 
+import com.venture.core.domain.BaseError
+import com.venture.core.domain.ResultResponse
 import com.venture.store_products.data.models.Product
 import kotlinx.coroutines.flow.Flow
 import retrofit2.Response
 
 interface ProductRepository {
 
-    suspend fun getAllProducts(): Flow<Response<List<Product>>>
+    suspend fun getAllProducts(): Flow<ResultResponse<List<Product>, BaseError>>
 
     suspend fun getProductById(id: Int): Flow<Response<Product>>
 

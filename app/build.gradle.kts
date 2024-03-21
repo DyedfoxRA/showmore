@@ -76,6 +76,7 @@ dependencies {
 
     implementation(project(":network"))
     implementation(project(":features:store_products"))
+    implementation(project(":core"))
 
     implementation(libs.okhttp)
     implementation(libs.logging.interceptor)
@@ -90,6 +91,4 @@ dependencies {
 
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
-
 }
