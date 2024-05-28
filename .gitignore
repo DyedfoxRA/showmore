@@ -1,15 +1,56 @@
+# Android Studio / IntelliJ IDEA
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.hprof
+
+# Build output
+/build/
+/captures/
+*.apk
+*.ap_
+*.aab
+
+# ProGuard
+/proguard/
+/proguard.txt
+/proguard-rules.pro
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild/
+
+# Gradle files
+.gradle/
+gradle-app.setting
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# Log Files
+*.log
+
+# Java runtime files
+hs_err_pid*
+
+# Kotlin
+*.kts
+.kts.md5
+.kts.sha1
+
+# Temporary Files
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS generated files #
+######################
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
